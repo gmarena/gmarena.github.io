@@ -28,14 +28,6 @@ h1 {
   color: #232323;
   padding-top: 1em;
 }
-@media (max-width: 766px) {
-    h1 {
-      font-size: 4em;
-    }
-    h3 {
-      font-size: 2em;
-    }          
-  }
 
 h3 {
   font-size: 4em;
@@ -47,4 +39,13 @@ p {
   margin-top: 4em;
   color: #111;
   margin-top: 3em;
+}
+
+@media (max-width: 766px) {
+    h1 {
+      font-size: 4em;
+    }
+    h3 {
+      font-size: 2em;
+    }          
 }

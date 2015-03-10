@@ -28,6 +28,14 @@ h1 {
   color: #232323;
   padding-top: 1em;
 }
+@media (max-width: 766px) {
+    h1 {
+      font-size: 4em;
+    }
+    h3 {
+      font-size: 2em;
+    }          
+  }
 
 h3 {
   font-size: 4em;

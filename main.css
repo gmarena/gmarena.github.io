@@ -44,6 +44,7 @@ p {
 @media (max-width: 766px) {
     h1 {
       font-size: 4em;
+      padding-top: 2em;
     }
     h3 {
       font-size: 2em;

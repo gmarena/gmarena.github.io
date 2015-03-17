@@ -1,22 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:200);
 
 body {
-  // -webkit-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
-  // -moz-box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
-  // box-shadow: inset 0px 0px 40px 0px rgb(0,0,0);
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-.landing-wrapper {
+.panel {
+  background-image: none;   
+  background-color: white;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
-  height: 60vh;
+}
+
+.landing-wrapper {
+  height: auto;
   background-color: #000;
-  padding: 4em 0 10em;
+  padding: 5em 0 1em;
   background-image: url('img/bckgrnd.png');
   background-size: cover;
   background-origin: padding-box;
@@ -43,31 +45,72 @@ body {
   line-height: 1;
 }
 
+.subtitle {
+  text-align: center;
+   color: #bb3322;
+   font-size: 4em;
+   font-family: 'Dosis',sans-serif;
+   margin: 0;
+   font-family: cursive;
+   -webkit-font-smoothing: antialiased;
+}
+
+ul {
+  padding: 0;
+  margin: 1.5em auto;
+  list-style-type: none;
+}
+
+.navbar-list {
+  width: 50%;
+  margin: 9.5em auto 1.4em;
+  li {
+    display: inline-block;   
+    width: 49%;   
+    color: white;   
+    text-transform: uppercase;   
+    font-family: sans-serif;   
+    font-weight: 100;   
+    letter-spacing: 0.5em;
+    text-align: center;
+  }
+}
+
 @media (max-width: 1200px) {
   .landing-wrapper {
     padding-left: 15px;
     padding-right: 15px;
+    padding:7em 0 2em;
   }
   .famous {
     font-size: 11em;
+  }
+  .navbar-list {
+    margin: 5em auto 0;
   }
 }
 
 @media (max-width: 766px) {
   .landing-wrapper {
     background-size: 150%;
-    padding: 10em 0;
+    padding: 9em 0 2em;
   }
   .famous {
     font-size: 7.5em;
     letter-spacing: initial;
-  }        
+  }
+  .navbar-list {
+    width: 100%;
+    li {
+      letter-spacing: 0.3em;
+    }
+  }
 }
 
 @media (max-width: 440px) {
   .landing-wrapper {
     background-size: 280%;
-    padding: 6em 0;
+    padding: 8em 0 2em;
   }
   .background {
     width: 200%;
@@ -77,5 +120,17 @@ body {
   }
   .famous {
     font-size: 6em;
+  }
+  .subtitle {
+    line-height: 0.75;
+    font-size: 2em;
+    margin-top: 0.75em;
+  }
+  .navbar-list {
+    width: 100%;
+    margin: 5em auto 0;
+    li {
+      letter-spacing: 0.2em;
+    }
   }
 }

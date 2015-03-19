@@ -10,9 +10,11 @@ var splash = document.getElementById("splash"),
     isCSS1Compat = ((document.compatMode || "") === "CSS1Compat");
         // true or false, the document is rendered in "Standards mode"
         // if false (and is "BackCompat"), document is rendered in Quirks mode and is probably old.
-window.onscroll = function(y) { 
-    y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
-        // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
-    splash.style.backgroundPosition = "0px " + (y / speed) + "px";
-    fold.style.transform = "translate(0px," + (y / -speed) + "px)";
+if (window.screen.width > 1000) {
+    // Big screens only pls
+    window.onscroll = function(y) { 
+        y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;            // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
+        splash.style.backgroundPosition = "0px " + (y / speed) + "px";
+        fold.style.transform = "translate(0px," + (y / -speed) + "px)";
+    }
 }

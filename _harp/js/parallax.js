@@ -16,6 +16,6 @@ if (window.innerWidth > 1000) {
         y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;            // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
         splash.style.backgroundPosition = "0px " + (y / speed) + "px";
         splash.style.opacity = 1 - y/200;
-        fold.style.transform = "translate(0px," + (y / -speed) + "px)";
+        splash.style.transform = "translate(0px," + (y / speed) + "px)";
     }
 }

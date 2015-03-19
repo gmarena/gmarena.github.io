@@ -4,6 +4,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 .panel {
@@ -53,6 +54,15 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   text-transform: lowercase;
+}
+
+.nav {
+  background-image: none;   
+  background-color: black;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 ul {

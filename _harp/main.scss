@@ -19,7 +19,7 @@ body {
 .landing-wrapper {
   height: auto;
   background-color: #000;
-  padding: 5em 0 1em;
+  padding: 5em 0 8.5em;
   background-image: url('img/bckgrnd.png');
   background-size: cover;
   background-origin: padding-box;
@@ -44,6 +44,7 @@ body {
   -webkit-font-smoothing: antialiased;
   letter-spacing: -10px;
   line-height: 1;
+  text-shadow: 0px 0px 10px white;
 }
 
 .subtitle {
@@ -58,11 +59,12 @@ body {
 
 .nav {
   background-image: none;   
-  background-color: black;
+  background-color: #333;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
+  overflow: auto;
 }
 
 ul {
@@ -73,7 +75,6 @@ ul {
 
 .navbar-list {
   width: 50%;
-  margin: 9.5em auto 1.4em;
   li {
     display: inline-block;   
     width: 29%;   
@@ -91,20 +92,17 @@ ul {
   .landing-wrapper {
     padding-left: 15px;
     padding-right: 15px;
-    padding:7em 0 2em;
+    padding:5em 0 6em;
   }
   .famous {
     font-size: 11em;
-  }
-  .navbar-list {
-    margin: 5em auto 0;
   }
 }
 
 @media (max-width: 766px) {
   .landing-wrapper {
     background-size: 150%;
-    padding: 9em 0 2em;
+    padding: 8em 0 4em;
   }
   .famous {
     font-size: 7.5em;
@@ -121,7 +119,7 @@ ul {
 @media (max-width: 440px) {
   .landing-wrapper {
     background-size: 280%;
-    padding: 8em 0 2em;
+    padding: 7em 0 4em;
   }
   .background {
     width: 200%;
@@ -139,7 +137,7 @@ ul {
   }
   .navbar-list {
     width: 100%;
-    margin: 5em auto 0;
+    margin: 0.75em auto 0;
     li {
       letter-spacing: 0.2em;
     }

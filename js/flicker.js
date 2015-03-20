@@ -5,7 +5,7 @@ var famous = $('#famous'),
     splash = document.getElementById("splash"),
     img = "url('img/bckgrnd.png')",
     subtitle = $('#subtitle'),
-    f = 25,
+    f = 35,
     s = 200;
 
 document.getElementById('famous').style.opacity=0;
@@ -28,10 +28,15 @@ famous.delay(1500)
     .fadeTo(f, 0, function() {
         splash.style.backgroundImage = "none";
     })
+    .fadeIn(f, function() {
+        splash.style.backgroundImage = img;
+    })
+    .fadeTo(f, 0, function() {
+        // splash.style.backgroundImage = "none";
+    })
     .delay(f)
     .fadeTo(f, 1, function() {
-        splash.style.backgroundImage = img;
+        // splash.style.backgroundImage = img;
     });
     // Fluorescent light flicker and subtitle fade
-
 }

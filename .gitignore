@@ -1,2 +1,11 @@
+# Files to ignore
+.DS_Store
+npm-debug.log
 README.md
 README.html
+
+# Dependencies
+/node_modules
+
+# Sass cache
+/.sass-cache

@@ -1,0 +1,38 @@
+.nav {
+  background-image: none;   
+  background-color: $darkGrey;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+}
+
+.navbar-list {
+  width: 50%;
+
+  @include respond(tablet) {
+    width: 100%;
+  }
+  @include respond(mobile) {
+    margin: 0.75em auto;
+  }
+  li {
+    display: inline-block;   
+    width: 29%;   
+    color: white;   
+    text-transform: uppercase;   
+    font-family: sans-serif;   
+    font-weight: 100;   
+    letter-spacing: 0.5em;
+    text-align: center;
+    margin: 0 10%;
+
+    @include respond(tablet) {
+      letter-spacing: 0.3em;
+    }
+    @include respond(mobile) {
+      letter-spacing: 0.2em;
+    }
+  }
+}

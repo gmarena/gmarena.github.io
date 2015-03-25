@@ -19,6 +19,5 @@ if (window.innerWidth > 1000) {
             // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
         splash.style.backgroundPosition = "0px " + (y/slow) + "px";
         splash.style.opacity = 1 - y/fadeSpeed;
-        splash.style.transform = "translate(0px," + (y/-slow) + "px)";
     }
 }

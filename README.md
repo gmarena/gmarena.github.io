@@ -7,7 +7,7 @@ Secret Project for GA using HarpJS
 
 **Work Flow**
 
-``shell
+```shell
 git checkout -b <new_branch_name>
 ```
 

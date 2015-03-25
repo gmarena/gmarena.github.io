@@ -34,5 +34,12 @@ git merge dev
 ```shell
 harp compile _public/ ./
 ```
+
+```shell
+git add -A :/
+git commit -m [commit message]
+git push
+```
 - **This will remove** `README.md`
 - **NEVER** compile on `dev`
+Seriously, only ever compile on master. **ONLY ON MASTER**

@@ -1,14 +1,14 @@
 # gmarena.github.io
 Secret Project for GA using HarpJS
 
-### <a href="http://www.gracemarie.xyz" target="_blank">gracemarie.xyz</a>
+#### <a href="http://www.gracemarie.xyz" target="_blank">gracemarie.xyz</a>
+
+##Work Flow
 
 `dev` is the default branch for this repository.
 `master` is the production branch.
 
-### Development
-
-**Work Flow**
+#### Development
 
 ```shell
 git pull
@@ -24,7 +24,7 @@ When you're happy with the updates you've made, `commit` the changes.
 
 Next: `merge` the feature branch with dev.
 
-### Production
+#### Production
 
 ```shell
 git checkout master

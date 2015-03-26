@@ -1,0 +1,39 @@
+.article {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 2em 0;
+    font-family: $bodyFont;
+
+    @include respond(smallscreen) {
+        width: 70%;
+    }
+    @include respond(tablet) {
+        width: 80%;
+    }
+    @include respond(mobile) {
+        width: 92%;
+    }
+
+    * {
+        margin: 0 0 1em;
+    }
+    
+    h1 {
+        font-family: $handFont;
+        font-size: $handSize;
+        margin-bottom: 0.5em;
+        margin-top: 0.75em;
+    }
+
+    p {
+        font-size: $bodySize;
+        &:last-of-type {
+            margin-bottom: 2em;
+        }
+
+        @include respond(mobile) {
+            font-size: $bodySize * 0.9;
+        }
+    }
+}

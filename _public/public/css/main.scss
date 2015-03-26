@@ -7,17 +7,20 @@
 @import 
     
     // BASE
-    "base/base",
     "base/colour",
     "base/font",
-    "base/layout",
+    "base/base",
     "base/responsive",
+    "base/panel",
+    
 
     // COMPONENTS
+    "components/article",
     "components/nav",
+    "components/footer",
 
     // LANDING
-    "landing/layout",
+    "landing/wrapper",
     "landing/text"
 
 ;

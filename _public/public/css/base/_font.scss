@@ -1,3 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:200);
+@import url(http://fonts.googleapis.com/css?family=Reenie+Beanie|Noticia+Text);
 
-$font: 'Dosis',sans-serif;
+$headlineFont: 'Dosis',sans-serif;
+$bodyFont: 'Noticia Text', serif;
+$handFont: 'Reenie Beanie', serif;
+
+/* FONT-SIZES */
+$bodySize: 18px;
+$handSize: $bodySize * 3;

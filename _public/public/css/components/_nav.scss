@@ -1,6 +1,6 @@
 .nav {
   background-image: none;   
-  background-color: $darkGrey;
+  background-color: $black;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
@@ -13,16 +13,14 @@
   
   @include respond(tablet) {
     width: 100%;
-  }
-  @include respond(mobile) {
-    margin: 0.75em auto;
+    margin: 0 auto;
   }
   li {
     display: inline-block;   
     width: 30%;   
     color: white;   
     text-transform: uppercase;   
-    font-family: sans-serif;   
+    font-family: $bodyFont;   
     font-weight: 100;   
     letter-spacing: 0.5em;
     text-align: center;

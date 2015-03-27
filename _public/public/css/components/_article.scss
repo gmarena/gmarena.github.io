@@ -2,17 +2,17 @@
     display: block;
     margin: auto;
     width: 50%;
-    padding: 2em 0;
+    padding: 2em 5%;
     font-family: $bodyFont;
+    background-color: white;
 
     @include respond(smallscreen) {
-        width: 70%;
+        width: 55%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
     @include respond(tablet) {
         width: 80%;
-    }
-    @include respond(mobile) {
-        width: 92%;
     }
 
     * {
@@ -28,6 +28,7 @@
 
     p {
         font-size: $bodySize;
+        text-align: justify;
         &:last-of-type {
             margin-bottom: 2em;
         }

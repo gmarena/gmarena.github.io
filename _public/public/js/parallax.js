@@ -1,7 +1,8 @@
 var splash = document.getElementById("splash"),
-    fold = document.getElementById("fold"),
+    famous = document.getElementById("famous"),
+    subtitle = document.getElementById("subtitle"),
     slow = 5,
-    fast = 1,
+    fast = 2,
     fadeSpeed = 250,
     y,
     // Applies a 25% movement in the OPPOSITE direction to the scroll so as to simulate slow movement up the page.
@@ -19,5 +20,8 @@ if (window.innerWidth > 1000) {
             // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
         splash.style.backgroundPosition = "0px " + (y/slow) + "px";
         splash.style.opacity = 1 - y/fadeSpeed;
+
+        famous.style.transform = "translate(0px," + (y / -slow) + "px)";
+        subtitle.style.transform = "translate(0px," + (y / -slow) + "px)";
     }
 }

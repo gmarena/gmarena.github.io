@@ -1,0 +1,8 @@
+include _partials/nav
+.panel
+    .article
+        for post, slug in public.posts._data
+            h1: a(href="posts/#{ slug }")= post.title
+            //- != partial("posts/" + slug)
+script(src="https://code.jquery.com/jquery-1.11.2.min.js")
+script(src="js/strip.pkgd.min.js")        

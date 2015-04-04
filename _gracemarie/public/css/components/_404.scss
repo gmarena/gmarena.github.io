@@ -1,0 +1,14 @@
+.panel.not-found {
+    background-color: $pink;
+    .article {
+        min-height: 100vh;
+        background-color: initial;
+    }
+    h1, h3 {
+        text-align: center;
+    }
+    h1 {
+        font-size: 8em;
+        margin-bottom: 20px;
+    }
+}

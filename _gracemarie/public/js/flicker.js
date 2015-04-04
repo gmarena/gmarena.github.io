@@ -2,7 +2,7 @@ if (window.innerWidth > 1000) {
 
 
 var splash = document.getElementById("splash"),
-    img = "url('img/bckgrnd.png')",
+    img = "url('portfolio/img/bckgrnd.jpg')",
     f = 45,
     s = 200,
     xs = 400;

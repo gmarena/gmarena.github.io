@@ -1,0 +1,38 @@
+{
+    "blonde-grenade": {
+        "title": "The Blonde Grenade",
+        "layout": "_post-layout",
+        "group": "grenade",
+        "main_img": "img/blonde-grenade/1.jpg"
+    },
+    "ram-tattoo": {
+        "title": "The Ram",
+        "layout": "_post-layout",
+        "group": "ram",
+        "main_img": "img/ram-tattoo/ram.jpg"
+    },
+    "inked-mag": {
+        "title": "Inked Magazine Cover",
+        "layout": "_post-layout",    
+        "group": "inked",
+        "main_img": "img/inked-mag/5.jpg"
+    },
+    "characters": {
+        "title": "Characters",
+        "layout": "_post-layout",
+        "group": "characters",
+        "main_img": "img/characters/batman.jpg"
+    },
+    "nautical-drawings": {
+        "title": "Nautical Drawings",
+        "layout": "_post-layout",
+        "group": "nautical",
+        "main_img": "img/nautical-drawings/sea-battle.jpg"
+    },
+    "eyes": {
+        "title": "I See You",
+        "layout": "_post-layout",
+        "group": "eyes",
+        "main_img": "img/eyes/eyes4.jpg"
+    }
+}

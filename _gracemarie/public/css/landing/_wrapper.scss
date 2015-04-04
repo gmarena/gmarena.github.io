@@ -4,15 +4,15 @@
   height: auto;
   background-color: black;
   padding: 3em 0 6.5em;
-  background-image: url('../img/bckgrnd.png');
-  background-size: cover;
+  background-image: url('../portfolio/img/bckgrnd.jpg');
+  background-size: 75%;
   background-origin: padding-box;
   background-position: center;
-  background-size: 100%;
   background-repeat: no-repeat;
   background-position-y: -5px;
 
   @include respond(smallscreen) {
+    background-size: cover;
     padding-left: 15px;
     padding-right: 15px;
     padding: 5em 0 6em;

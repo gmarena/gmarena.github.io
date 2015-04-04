@@ -23,6 +23,10 @@
   display: table;
   table-layout: fixed;
   margin-left: 0;
+
+  @include respond(smallscreen) {
+    width: 75%;
+  }
   @include respond(tablet) {
     width: 100%;
     margin: 0 auto;
@@ -37,17 +41,29 @@
     text-align: center;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     @include respond(tablet) {
       letter-spacing: 0.3em;
+      padding-left: 10px;
+      padding-right: 10px;
     }
     @include respond(mobile) {
       letter-spacing: 0.2em;
+      padding-left: 10px;
+      padding-right: 10px;
+      span {
+        display: none;
+      }
+      i {
+        font-size: 1.2em;
+      }
     }
 
     a {
       display: block;
-      padding:10px;
+      padding: 0 10px;
       color: white;
       &:link {
         color: inherit;

@@ -18,7 +18,7 @@ if (window.innerWidth > 1000) {
     window.onscroll = function(y) { 
         y = supportPageOffset ? window.pageYOffset : isCSS1Compat ? document.documentElement.scrollTop : document.body.scrollTop;
             // Use pageYOffset rather than ScrollY (anyway) for maximum compatibility
-        splash.style.backgroundPosition = "0px " + (y/slow) + "px";
+        splash.style.backgroundPosition = "center " + (y/slow) + "px";
         splash.style.opacity = 1 - y/fadeSpeed;
 
         famous.style.transform = "translate(0px," + (y / -slow) + "px)";

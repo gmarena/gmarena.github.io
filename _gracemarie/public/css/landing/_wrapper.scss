@@ -1,0 +1,28 @@
+/* Landing Page Layout */
+
+.landing-wrapper {
+  height: auto;
+  background-color: black;
+  padding: 3em 0 6.5em;
+  background-image: url('../portfolio/img/bckgrnd.jpg');
+  background-size: 75%;
+  background-origin: padding-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position-y: -5px;
+
+  @include respond(smallscreen) {
+    background-size: cover;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 5em 0 6em;
+  }
+  @include respond(tablet) {
+    background-size: 150%;
+    padding: 8em 0 4em;
+  }
+  @include respond(mobile) {
+    background-size: 280%;
+    padding: 7em 0 4em;
+  }
+}

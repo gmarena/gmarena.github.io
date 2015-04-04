@@ -16,7 +16,7 @@ git checkout -b <new_branch_name>
 ```
 
 ```shell
-harp server _public
+harp server _gracemarie
 ```
 - This starts the auto-compile and regeneration of partials etc
 

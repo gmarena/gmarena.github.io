@@ -32,7 +32,7 @@ git merge dev
 ```
 
 ```shell
-harp compile _public/ ./
+harp compile _gracemarie/ ./
 ```
 
 ```shell

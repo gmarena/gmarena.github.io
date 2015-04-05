@@ -38,10 +38,12 @@ h2.subtitle {
 
   @include respond(tablet) {
     font-size: $handSize * 1.2;
+    padding-bottom: 0.4em;
   }
   @include respond(mobile) {
     line-height: 0.75;
     font-size: $handSize;
     margin-top: 0.75em;
+    padding-bottom: 0;
   }
 }

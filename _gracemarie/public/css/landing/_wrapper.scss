@@ -19,7 +19,7 @@
   }
   @include respond(tablet) {
     background-size: 150%;
-    padding: 8em 0 4em;
+    padding: 2em 0 0;
   }
   @include respond(mobile) {
     background-size: 280%;

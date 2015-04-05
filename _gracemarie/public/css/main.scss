@@ -11,6 +11,7 @@
     "base/font",
     "base/base",
     "base/responsive",
+    "base/mixins",
     "base/panel",
     
 
@@ -18,12 +19,16 @@
     "components/article",
     "components/footer",
     "components/nav",
-    "components/thumbnails",
     "components/404",
 
     // LANDING
     "landing/wrapper",
     "landing/panel",
-    "landing/text"
+    "landing/text",
+
+    // PORTFOLIO
+    "portfolio/portfolio-article",
+    "portfolio/post-block",
+    "portfolio/thumbnails"
 
 ;

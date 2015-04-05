@@ -4,7 +4,7 @@
     width: 50%;
     padding: 60px 5%;
     font-family: $bodyFont;
-    background-color: white;
+    background-color: $white;
 
     @include respond(smallscreen) {
         width: 55%;

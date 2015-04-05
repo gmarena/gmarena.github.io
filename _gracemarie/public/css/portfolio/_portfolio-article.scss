@@ -1,0 +1,36 @@
+// Extends the .panel class
+.panel.folio {
+    background-color: $black;
+}
+
+// Extends the .article class
+.article.portfolio {
+    width: 80%;
+    padding-top: 120px;
+    background-color: $black;
+
+    @include respond(smallscreen) {
+        width: 85%;
+    }
+    @include respond(tablet) {
+        width: 95%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 4em;
+    }
+    .p-title {
+        margin: 0;
+        margin-bottom: 0.5em;
+        text-align: center;
+        color: $white;
+        letter-spacing: 2px;
+
+        @include respond(tablet) {
+            font-size: 2.5em;
+            margin: 0.5em 0;
+        }
+    }
+    p {
+        color: $pink;
+    }
+}

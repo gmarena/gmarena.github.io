@@ -1,4 +1,4 @@
 # Files to ignore
 .DS_Store
 npm-debug.log
-/node-modules
+/node_modules

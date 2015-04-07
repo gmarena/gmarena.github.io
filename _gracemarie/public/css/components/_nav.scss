@@ -11,6 +11,10 @@
   top: 0;
   z-index: 999;
   @include box-shadow(0, 2px, 15px, 0, $black);
+  
+  @include respond(tablet) {
+    @include box-shadow(0,0,0,0,white);
+  }
 
   &.landing-nav {
     position: initial;
@@ -48,7 +52,10 @@
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-
+    
+    i {
+      display: none;
+    }
     @include respond(tablet) {
       letter-spacing: 0.3em;
       padding-left: 10px;
@@ -63,6 +70,7 @@
       }
       i {
         font-size: 1.2em;
+        display: inherit;
       }
     }
 

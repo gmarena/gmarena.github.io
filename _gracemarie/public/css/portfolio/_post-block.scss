@@ -74,6 +74,8 @@
     width: 100%;
     padding: 5px 0;
     background-color: $red;
+    border: solid 1px $red;
+        // Red border prevents a visual glitch where the under-colour peeps at the edges.
     z-index: 2;
 
     @include translate(-50%, 0);

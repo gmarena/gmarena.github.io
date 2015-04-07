@@ -17,11 +17,29 @@
         "group": "inked",
         "main_img": "img/inked-mag/5.jpg"
     },
+    "under-the-skin": {
+        "title": "Robotics",
+        "layout": "_post-layout",
+        "group": "limbs",
+        "main_img": "img/robots/hand.jpg"
+    },
+    "clockwork-hearts": {
+        "title": "Clockwork Hearts",
+        "layout": "_post-layout",
+        "group": "hearts",
+        "main_img": "img/robots/heart4.jpg"
+    },
     "characters": {
         "title": "Characters",
         "layout": "_post-layout",
         "group": "characters",
         "main_img": "img/characters/batman.jpg"
+    },
+    "robot-animals": {
+        "title": "Robotic Wild",
+        "layout": "_post-layout",
+        "group": "animals",
+        "main_img": "img/robots/catseye3.jpg"
     },
     "nautical-drawings": {
         "title": "Nautical Drawings",

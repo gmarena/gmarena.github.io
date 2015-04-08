@@ -1,4 +1,10 @@
 {
+    "strength": {
+        "title": "Strength",
+        "layout": "_post-layout",
+        "group": "eagle",
+        "main_img": "img/eagle/2.jpg"
+    },
     "blonde-grenade": {
         "title": "The Blonde Grenade",
         "layout": "_post-layout",

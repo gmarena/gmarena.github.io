@@ -1,0 +1,35 @@
+ul.social-links {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    text-align: center;
+    li {
+        display: table-cell;
+        font-size: 5em;
+        padding: 0 1em;
+
+        @include respond(tablet) {
+            padding: 0 15px;
+        }
+        a {
+            display: block;
+            margin: 0;
+            color: $red;
+            &:hover {
+                color: $pink;
+                i.fa {
+                    text-shadow: 0 4px $black;
+                }
+            }
+            &:active {
+                color: $pink;
+                i.fa {
+                    text-shadow: 0 0 $pink;
+                }
+            }
+            i.fa {
+                margin: 0;
+            }
+        }
+    }
+}

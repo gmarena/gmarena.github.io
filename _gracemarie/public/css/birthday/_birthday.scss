@@ -1,0 +1,18 @@
+.birthday {
+    background-color: $black;
+    color: $pink;
+    &.article {
+        h1 {
+            text-align: center;
+            color: $white;
+            text-transform: uppercase;
+            text-shadow: 0 5px $pink;
+        }
+        p {
+            &.italic {
+                font-style: italic;
+                text-align: center;
+            }
+        }
+    }
+}

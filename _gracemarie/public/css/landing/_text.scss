@@ -34,7 +34,6 @@ h2.subtitle {
   font-family: $handFont;
   margin: 0;
   -webkit-font-smoothing: antialiased;
-  text-transform: lowercase;
 
   @include respond(tablet) {
     font-size: $handSize * 1.2;

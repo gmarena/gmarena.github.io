@@ -2,6 +2,7 @@
     "globals": {
         "title": "Grace-Marie | Artist",
         "name": "Grace-Marie",
+        "job": "Artist",
         "uri": "http://gracemarie.xyz"
     }
 }

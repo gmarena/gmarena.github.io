@@ -79,25 +79,13 @@
     z-index: 2;
 
     @include translate(-50%, 0);
-
-    a {
-        padding-bottom: 10px;
-        text-decoration: none;
-        color: $pink;
-        font-family: $headlineFont;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-
-        &:visited {
-            color: $white;
-        }
-        &:hover {
-            text-decoration: underline;
-        }
-        &:active {
-            color: $pink;
-        }
-    }
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: $pink;
+    font-family: $headlineFont;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
 }
 
 .block {

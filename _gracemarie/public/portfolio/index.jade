@@ -1,9 +1,7 @@
 for post, slug in public.portfolio._data
     .block-wrapper
-        h2.port-title: a(href="/portfolio/#{ slug }")= post.title
-        a(href="#{ post.main_img }"
-            class="strip"
-            data-strip-group="preview"
-            data-strip-caption="#{ post.title }") 
+        h2.port-title #{post.title}
+        //- : a(href="/portfolio/#{ slug }")=
+        a(href="/portfolio/#{ slug }") 
             .block(style="background-image: url('#{ post.main_img }');"
                 class="teaser")      

@@ -37,7 +37,7 @@ harp compile _gracemarie/ ./
 
 ```shell
 git add --all .
-git commit -m [commit message]
+git commit -m "[commit message]"
 git push
 ```
 - **This will remove** `README.md`

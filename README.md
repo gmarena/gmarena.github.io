@@ -36,7 +36,7 @@ harp compile _gracemarie/ ./
 ```
 
 ```shell
-git add -A :/
+git add --all .
 git commit -m [commit message]
 git push
 ```

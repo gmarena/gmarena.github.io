@@ -181,8 +181,10 @@
 
     var imageCenterY = imageOffset.top + (this._targetImage.height / 2)
     var imageCenterX = imageOffset.left + (this._targetImage.width / 2)
-
-    this._translateY = viewportY - imageCenterY
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+    ADDED 30px to translate (below) to allow visible nav
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+    this._translateY = viewportY - imageCenterY + 30
     this._translateX = viewportX - imageCenterX
 
     $(this._targetImage).css('transform', 'scale(' + this._imgScaleFactor + ')')

@@ -14,11 +14,13 @@ Secret Project for GA using HarpJS
 git pull
 git checkout -b <new_branch_name>
 ```
+(Make the branch name relevant to the task you are engaging in)
 
 ```shell
 harp server _gracemarie
 ```
 - This starts the auto-compile and regeneration of partials etc
+- Server automatically uses localhost port 9000
 
 When you're happy with the updates you've made, `commit` the changes.
 

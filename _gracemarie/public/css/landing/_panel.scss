@@ -1,12 +1,13 @@
 .landing-panel {
     background-image: url('../portfolio/img/ram-landing.jpg');
     background-repeat: no-repeat;
-    background-position: 125% 0;
-    background-size: contain;
+    background-position: 110% 0;
+    background-size: initial;
     .article {
         margin-left: 0;
         padding-left: 10%;
-        padding-right: 10%; 
+        padding-right: 10%;
+        min-height: 600px;
     }
     @include respond(tablet) {
         background-image: none;

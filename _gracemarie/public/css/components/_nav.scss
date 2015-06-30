@@ -1,6 +1,7 @@
 .nav {
   background-image: none;   
-  background-color: $red;
+  background-color: $darkRed;
+  border-bottom: 1px solid $red;
   padding-right: 0px;
   padding-left: 0px;
   margin-right: auto;
@@ -19,7 +20,6 @@
   &.landing-nav {
     position: initial;
     width: auto;
-    background-color: $black;
     @include box-shadow(0, 0, 0, 0, white);
     .navbar-list {
       margin-left: auto;

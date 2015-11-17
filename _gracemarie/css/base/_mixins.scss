@@ -20,9 +20,6 @@
 
 /* BOX SHADOW MIXIN */
 @mixin box-shadow($left, $top, $blur, $spread, $colour, $inset:"") {
-   -moz-box-shadow: $left $top $blur $spread unquote($colour) unquote($inset);
-     -o-box-shadow: $left $top $blur $spread unquote($colour) unquote($inset);
-    -ms-box-shadow: $left $top $blur $spread unquote($colour) unquote($inset);
 -webkit-box-shadow: $left $top $blur $spread unquote($colour) unquote($inset);
         box-shadow: $left $top $blur $spread unquote($colour) unquote($inset);
 }

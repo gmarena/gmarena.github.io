@@ -10,7 +10,6 @@
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 999;
   @include box-shadow(0, 2px, 15px, 0, $black);
   
   @include respond(tablet) {

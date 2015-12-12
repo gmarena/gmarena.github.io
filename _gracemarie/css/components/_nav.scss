@@ -1,0 +1,95 @@
+.nav {
+  background-image: none;   
+  background-color: $darkRed;
+  border-bottom: 1px solid $red;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  @include box-shadow(0, 2px, 15px, 0, $black);
+  
+  @include respond(tablet) {
+    @include box-shadow(0,0,0,0,white);
+  }
+
+  &.landing-nav {
+    position: initial;
+    width: auto;
+    @include box-shadow(0, 0, 0, 0, white);
+    .navbar-list {
+      margin-left: auto;
+    }
+  }
+}
+
+.navbar-list {
+  width: 50%;
+  display: table;
+  table-layout: fixed;
+  margin-left: 0;
+
+  @include respond(smallscreen) {
+    width: 75%;
+  }
+  @include respond(tablet) {
+    width: 100%;
+    margin: 0 auto;
+  }
+  li {
+    display: table-cell;
+    color: $white;   
+    text-transform: uppercase;   
+    font-family: $bodyFont;   
+    font-weight: 100;   
+    letter-spacing: 0.5em;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    i {
+      display: none;
+    }
+    @include respond(tablet) {
+      letter-spacing: 0.3em;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    @include respond(mobile) {
+      letter-spacing: 0.2em;
+      padding-left: 10px;
+      padding-right: 10px;
+      span {
+        display: none;
+      }
+      i {
+        font-size: 1.2em;
+        display: inherit;
+      }
+    }
+
+    a {
+      display: block;
+      padding: 0 10px;
+      color: $white;
+      &:link {
+        color: inherit;
+        text-decoration: none;
+      }
+      &:visited {
+        color: inherit;
+      }
+      &:hover {
+        color: $pink;
+      }
+      &:active {
+        text-decoration: line-through;
+      }
+    }  
+  }
+}

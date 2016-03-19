@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/gmarena/gmarena.github.io.png?label=ready&title=Ready)](http://waffle.io/gmarena/gmarena.github.io)
+
 # gmarena.github.io
 Secret Project for GA using HarpJS
 

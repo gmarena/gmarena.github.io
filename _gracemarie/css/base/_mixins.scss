@@ -1,0 +1,28 @@
+/* Translate Mixin (maximum responsiveness) */
+@mixin transform($transforms) {
+   -moz-transform: $transforms;
+     -o-transform: $transforms;
+    -ms-transform: $transforms;
+-webkit-transform: $transforms;
+        transform: $transforms;
+}
+@mixin transition($property, $time) {
+   -moz-transition: $property $time;
+     -o-transition: $property $time;
+-webkit-transition: $property $time;
+        transition: $property $time;
+}
+
+@mixin translate($x, $y) {
+   @include transform(translate($x, $y));
+}
+
+
+/* BOX SHADOW MIXIN */
+@mixin box-shadow($shadows...) {
+   -moz-box-shadow: $shadows;
+     -o-box-shadow: $shadows;
+    -ms-box-shadow: $shadows;
+-webkit-box-shadow: $shadows;
+        box-shadow: $shadows;
+}

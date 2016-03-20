@@ -3,27 +3,27 @@
 *   Description: Responsive Breakpoints
 ************************************************/
 
-$phone-size: 440px;
-$tablet-size: 768px;
-$small-size: 992px;
-$large-size: 1200px;
+// $phone-size: 440px;
+// $tablet-size: 768px;
+// $small-size: 992px;
+// $large-size: 1200px;
 
-// Small Mobile Devices (less than 768px wide)
-@mixin respond($size) {
+// // Small Mobile Devices (less than 768px wide)
+// @mixin respond($size) {
 
-    @if $size == mobile {
-        @media (max-width: $phone-size) {
-            @content;
-        }
-    }
-    @else if $size == tablet {
-        @media (max-width: $tablet-size) {
-            @content;
-        }
-    }
-    @else if $size == smallscreen {
-        @media (max-width: $large-size) {
-            @content;
-        }
-    }
-}
+//     @if $size == mobile {
+//         @media (max-width: $phone-size) {
+//             @content;
+//         }
+//     }
+//     @else if $size == tablet {
+//         @media (max-width: $tablet-size) {
+//             @content;
+//         }
+//     }
+//     @else if $size == smallscreen {
+//         @media (max-width: $large-size) {
+//             @content;
+//         }
+//     }
+// }

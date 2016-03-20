@@ -1,3 +1,27 @@
-.landing {
-    background: url(../img/landing.png);
+.landing-wrapper {
+    background: $black;
 }
+
+.landing {
+    max-width: 62.5em;
+    margin: auto;
+    background: url(../img/landing.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 100vh;
+}
+
+    .landing__title {
+        color: $pink;
+        font-family: $headlineFont;
+        font-size: 8rem;
+
+        letter-spacing: -0.563rem;
+
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 0px 0px 15px $pink;
+
+        padding: 2.5rem 0 7rem;
+    }
+

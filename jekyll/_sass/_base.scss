@@ -4,3 +4,7 @@ body {
     background: $black;
     background: linear-gradient($black 27rem, $charcoal, $darkGrey);
 }
+
+a:focus {
+    outline: initial; // remove blue border from uas
+}

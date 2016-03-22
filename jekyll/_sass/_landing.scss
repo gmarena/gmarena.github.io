@@ -1,14 +1,13 @@
-.landing-wrapper {
-    background: $black;
+.landing__wrapper {
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    max-width: 62.5em;
+    margin: auto;
+    min-height: 100vh;
 }
 
 .landing {
-    max-width: 62.5em;
-    margin: auto;
-    background: url(../img/landing.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    min-height: 100vh;
+    // background: url(../img/landingSMALL.png);
 }
 
     .landing__title {

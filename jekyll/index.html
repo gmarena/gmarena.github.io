@@ -3,10 +3,24 @@ layout: default
 title: Graceful&nbsp;&nbsp;Antics
 ---
 
-<div class="landing">
+<div id="splash" class="landing__wrapper">
+    <div class="landing">
 
-  <h1 class="landing__title">{{page.title}}</h1>
-  
-  {%  include navbar.html %}
+      <h1 id="famous" class="landing__title">{{page.title}}</h1>
 
+    </div>
+
+    {%  include navbar.html %}
 </div>
+
+<script src="js/demo/jquery-1.11.2.min.js"></script>
+<script src="js/parallax.js"></script>
+<script src="js/flicker.js"></script>
+
+<!-- 
+script(src="https://code.jquery.com/jquery-1.11.2.min.js")
+script(src="js/demo/jquery-1.11.2.min.js")
+script(src="js/parallax.js")
+script(src="js/flicker.js")
+
+ -->
